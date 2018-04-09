@@ -1,5 +1,5 @@
 FROM ubuntu:xenial
-COPY / /
+COPY / /iexec
 RUN apt-get update -y
 RUN apt-get install python2.7 python-pip -y
 RUN pip install h5py 
